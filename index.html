@@ -19,7 +19,18 @@
     
     
     
-        <script src="demo_script_src.js">
+        <script type="text/javascript">
+            var userGuess, word, guessesLeft, wordList;
+            
+            wordList = ["halo", "destiny", "pong", "snake"]
+            
+            word = wordList[Math.floor(Math.random() * wordList.length)];
+            console.log(word);
+            document.onkeyup = function(event){
+                userGuess = event.key;
+                console.log(userGuess); 
+            }
+
         </script>
     </body>
 </html>
