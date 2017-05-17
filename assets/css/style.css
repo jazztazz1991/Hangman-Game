@@ -1,1 +1,58 @@
-hannah daniels
+body{
+    margin: 0 auto;
+    width: 90%;
+}
+aside{
+    float: right;
+    width: 45%;
+    height: 400px;
+    margin: 5px auto;
+    padding: 50px 1% 0px;
+    border-style: double;
+    border-width: 5px;
+    border-color: cadetblue;
+    text-align: center;
+    font-size: 18px;
+}
+#wordSpot{
+    letter-spacing: 3px;
+}
+
+.image1{
+    width: 45%;
+    height: 400px;
+    background-image: url(../images/halo.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.image2{
+    width: 45%;
+    height: 400px;
+    background-image: url(../images/destiny.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.image3{
+    width: 45%;
+    height: 400px;
+    background-image: url(../images/pong.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.image4{
+    width: 45%;
+    height: 400px;
+    background-image: url(../images/snake.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.image5{
+    width: 45%;
+    height: 400px;
+    background-image: url(../images/battlefield.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+section{
+    float: left;
+}
