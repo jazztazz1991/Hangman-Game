@@ -5,6 +5,7 @@
             
             function begin(){
                 word = wordList[Math.floor(Math.random() * wordList.length)];
+                letterUsed = [];
                 for(var i = 0; i < word.length; i++){
                     placeHolder += "_";
                 }
