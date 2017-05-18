@@ -1,6 +1,5 @@
             var userGuess, word, wordList, myWordM, placeHolder = "",letterUsed = [];
             var guessesLeft = 12;
-            var alphabet = "abcdefghijklmnopqrstuvwxyz"
             
             wordList = [ "halo" , "destiny" , "pong" , "snake", "battlefield" ];
             
