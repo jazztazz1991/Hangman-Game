@@ -2,10 +2,13 @@ body{
     margin: 0 auto;
     width: 90%;
 }
+#jumb{
+    text-align: center;
+}
 aside{
     float: right;
     width: 45%;
-    height: 400px;
+    height: 500px;
     margin: 5px auto;
     padding: 50px 1% 0px;
     border-style: double;

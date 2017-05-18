@@ -1,5 +1,6 @@
-            var userGuess, word, wordList, myWordM, placeHolder = "";
-            var guessesLeft = 12;;
+            var userGuess, word, wordList, myWordM, placeHolder = "",letterUsed = [];
+            var guessesLeft = 12;
+            var alphabet = "abcdefghijklmnopqrstuvwxyz"
             
             wordList = [ "halo" , "destiny" , "pong" , "snake", "battlefield" ];
             
@@ -25,6 +26,7 @@
                     document.querySelector("#hint").innerHTML = "Shooter that broke the limits to the available options in shooter video games.";
                 }
             }
+            
             function check(){
                 var correct = false;
                 for(var i = 0; i < word.length; i++){
@@ -32,8 +34,10 @@
                         correct = true;
                         placeHolder = placeHolder.substring(0, i) + userGuess + placeHolder.substring(i + 1, placeHolder.length + 1);
                         document.querySelector("#wordSpot").innerHTML = placeHolder;
-                    }   
+                    }
                 }
+                letterUsed.push(userGuess);
+                document.querySelector("#letter").innerHTML = letterUsed;
                  if(correct == false){
                         guessesLeft--;
                         document.querySelector("#guesses").innerHTML = guessesLeft;
